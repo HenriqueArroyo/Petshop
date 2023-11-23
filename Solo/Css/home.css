@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
+
+* {
+    margin: 0;
+    background-color: #FFF9F0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    left: 45%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+
+
+#retornar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 7%;
+    top: 39%;
+    opacity: 70%;
+
+}
+
+#avancar{
+    position: absolute;
+    transform: rotateY(180deg);
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top: 39%;
+    opacity: 70%;
+}
+
+section{
+    width: 100%;
+    height: 700px;
+}
+
+section h1{
+    font-family: 'Ruda', sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 13%;
+    margin-top: 70px;
+}
+
+
+
+.card-1 {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px  solid black;
+    position: relative;
+    left: 8%;
+    margin-top: 80px;
+    background-color: white;
+}
+
+.card-1 p{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#img1 {
+    width: 390px;
+    height: 400px;
+}
+
+.card-2 {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px  solid black;
+    position: relative;
+    left: 38%;
+    bottom: 72%;
+    background-color: white;
+}
+
+.card-2 p{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-3 {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px  solid black;
+    position: relative;
+    left: 68%;
+    bottom: 144%;
+    background-color: white;
+}
+
+.card-3 p{
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
