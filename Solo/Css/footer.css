@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
+
+* {
+    margin: 0;
+}
+
+footer {
+    height: 19vw;
+    width: 100%;
+    background-color: #FFF2F2;
+    border: 2px solid black;
+}
+
+#instagram {
+    position: relative;
+    height: 3.5vw;
+    width: 3.5vw;
+    left: 41%;
+    top: 0;
+}
+
+#facebook {
+ position: relative;
+ height: 5vw;
+    width: 5vw;
+    left: 43.7%;
+    top: 4%;
+}
+
+#twitter {
+    position: relative;
+    height: 3.2vw;
+       width: 3.2vw;
+       left: 47%;
+}
+
+footer p{
+    color: #7A1858;
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#sobre {
+    position: relative;
+    left: 43.5%;
+    bottom: -15%;
+}
+
+#line {
+    position: relative;
+    left: 50%;
+}
+
+#contato {
+    position: relative;
+    left: 53%;
+    bottom:18% ;
+}
