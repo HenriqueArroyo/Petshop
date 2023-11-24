@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9F0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.sobre {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.sobre h1 {
+    position: relative;
+    left: 8%;
+    top: 7%;
+    font-size: 40px;
+}
+
+.sobre img{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top:10% ;
+    right: 10%;
+    border-radius: 15px;
+    opacity: 95%;
+}
+
+.sobre p{
+    position: relative;
+    top: 20%;
+    left: 0%;
+    margin-right: 20%;
+    font-size: 24px;
+    height: 100px;
+}
+
+.duvidas {
+    position: relative;
+    width: 100%;
+    top: 20%;
+}
+
+.duvidas h1 {
+    position: relative;
+    left: 7%;
+    top: 7%;
+    font-size: 40px;
+}
+
+.duvidas h3{
+    position: relative;
+    left: 7%;
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+.duvidas p {
+    font-size: 18px;
+    margin-left: 7%;
+    margin-right: 7%;
+}

@@ -26,8 +26,6 @@ main {
     transition: 1s;
 }
 
-
-
 #retornar{
     position: absolute;
     width: 50px;
@@ -37,6 +35,8 @@ main {
     opacity: 70%;
 
 }
+
+
 
 #avancar{
     position: absolute;
@@ -50,13 +50,14 @@ main {
 
 section{
     width: 100%;
-    height: 700px;
+    height: 500px;
+    display: flex;
 }
 
 section h1{
     font-family: 'Ruda', sans-serif;
-    font-size: 35px;
-    position: relative;
+    font-size: 30px;
+    position: absolute;
     left: 13%;
     margin-top: 70px;
 }
@@ -64,14 +65,15 @@ section h1{
 
 
 .card-1 {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
     left: 8%;
-    margin-top: 80px;
+    margin-top: 150px;
     background-color: white;
+   
 }
 
 .card-1 p{
@@ -83,18 +85,18 @@ section h1{
 }
 
 #img1 {
-    width: 390px;
-    height: 400px;
+    width: 290px;
+    height: 300px;
 }
 
 .card-2 {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
-    left: 38%;
-    bottom: 72%;
+    margin-top: 150px;
+    margin-left: 190px;
     background-color: white;
 }
 
@@ -107,13 +109,13 @@ section h1{
 }
 
 .card-3 {
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
-    left: 68%;
-    bottom: 144%;
+    margin-top: 150px;
+    margin-left: 80px;
     background-color: white;
 }
 
