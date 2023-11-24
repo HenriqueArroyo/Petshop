@@ -1,68 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
 
-* {
+*{
     margin: 0;
-    background-color: #FFF9F0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF9F0;
 }
 
-main {
-    width: 75%;
-    height: 500px;
-    margin: auto;
-    margin-top: 70px;
-    box-shadow: 0px 0px 3px grey;
-    position: relative;
-    overflow: hidden;
+.filtro {
+position: absolute;
+border: 2px solid black;
+height: 80vh;
+width: 30vh;
+margin-top: 100px;
+left: 2%;
+background-color: white;
 }
 
-.slide{
-    left: 45%;
-    width: 100%;
+.filtro label {
+   font-size:18px;
+   
+}
+
+.filtro input {
+    margin-left: 6px;
+    margin-top: 17px;
+    height: 16px;
+    width: 16px;
+}
+
+.catalago {
+    position: absolute;
+    left: 38vh;
     height: 100%;
-    position: absolute;
-    transition: 1s;
-}
-
-#retornar{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 7%;
-    top: 39%;
-    opacity: 70%;
+    width: 170vh;
 
 }
 
-
-
-#avancar{
-    position: absolute;
-    transform: rotateY(180deg);
-    width: 50px;
-    height: 50px;
-    left: 90%;
-    top: 39%;
-    opacity: 70%;
+.catalago h2 {
+    font-size: 40px;
+    margin-left: 50px;
 }
 
-section{
-    width: 100%;
-    height: 500px;
-    display: flex;
+.catalago h6{
+    font-size: 15px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    opacity: 80%;
 }
-
-section h1{
-    font-family: 'Ruda', sans-serif;
-    font-size: 30px;
-    position: absolute;
-    left: 13%;
-    margin-top: 70px;
-}
-
-
 
 .card-1 {
     height: 400px;
@@ -70,8 +57,8 @@ section h1{
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
-    left: 14%;
-    margin-top: 150px;
+    left: 4.5%;
+    margin-top: 50px;
     background-color: white;
    
 }
@@ -95,8 +82,8 @@ section h1{
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
-    margin-top: 150px;
-    margin-left: 350px;
+    margin-top: 50px;
+    margin-left: 139px;
     background-color: white;
 }
 
@@ -114,8 +101,8 @@ section h1{
     border-radius: 10px;
     border: 1px  solid black;
     position: relative;
-    margin-top: 150px;
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 86px;
     background-color: white;
 }
 
@@ -127,6 +114,11 @@ section h1{
     margin-right: 5px;
 }
 
+.produtos {
+    height: 450px;
+    display: flex;
+    width: 100%;
+}
 
 .card-1:hover{
     transform: scale(1.10);
