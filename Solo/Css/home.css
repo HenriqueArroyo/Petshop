@@ -73,7 +73,7 @@ section h1{
     left: 14%;
     margin-top: 150px;
     background-color: white;
-   
+   cursor: pointer;
 }
 
 .card-1 p{
@@ -98,6 +98,8 @@ section h1{
     margin-top: 150px;
     margin-left: 350px;
     background-color: white;
+    cursor: pointer;
+
 }
 
 .card-2 p{
@@ -117,6 +119,8 @@ section h1{
     margin-top: 150px;
     margin-left: 120px;
     background-color: white;
+    cursor: pointer;
+
 }
 
 .card-3 p{
