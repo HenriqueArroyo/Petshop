@@ -3,11 +3,103 @@
 
 * {
     margin: 0;
-    background-color: #FFF9F0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFF9F0;
+}
+
+/* ------ Header ---------- */
+nav {
+    width: 100%;
+    height: 11vw;
+}
+
+.header1 {
+   height: 7vw;
+   width: 100%;
+   background-color: #EEE3E3;
+}
+
+.header2 {
+    height: 3.5vw;
+    width: 100%;
+    background-color: #7A1858;
+    text-decoration: none;
+}
+
+#logo {
+   position: relative;
+   height: 7vw;
+   width: 7vw;
+   left: 45%;
+}
+
+#telefone {
+    position: relative;
+    height: 2.5vw;
+    width: 2.5vw;
+    left: 74%;
+    bottom: 20%;
+}
+
+#telefone:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+#carrinhoCompra {
+    position: relative;
+    height: 2.5vw;
+    width: 2.5vw;
+    left: 78%;
+    bottom: 20%;
+}
+
+#carrinhoCompra:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+#usuario {
+    position: relative;
+    height: 2.5vw;
+    width: 2.5vw;
+    left: 82%;
+    bottom: 20%;
+}
+
+#usuario:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+.header2 {
+display: flex;
+justify-content: space-around;
+}
+
+.header2 p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header2 a{
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+}
+
+.header2 p:hover {
+    transform: scale(1.20);
+    transition: 0.3s;
+}
+
+/* -------------------------------------------------------- */
 main {
     width: 75%;
     height: 500px;
@@ -31,7 +123,7 @@ main {
     width: 50px;
     height: 50px;
     left: 7%;
-    top: 39%;
+    top: 60vh;
     opacity: 70%;
 
 }
@@ -44,7 +136,7 @@ main {
     width: 50px;
     height: 50px;
     left: 90%;
-    top: 39%;
+    top: 60vh;
     opacity: 70%;
 }
 
@@ -145,4 +237,64 @@ section h1{
 .card-3:hover{
     transform: scale(1.10);
     transition: 0.5s;
+}
+
+/* ------------------------------------------------------ */
+
+footer {
+    height: 19vw;
+    width: 100%;
+    background-color: #FFF2F2;
+    border: 2px solid black;
+    margin-top: 15vh;
+}
+
+#instagram {
+    position: relative;
+    height: 3.5vw;
+    width: 3.5vw;
+    left: 41%;
+    top: 0;
+}
+
+#facebook {
+ position: relative;
+ height: 5vw;
+    width: 5vw;
+    left: 43.7%;
+    top: 4%;
+}
+
+#twitter {
+    position: relative;
+    height: 3.2vw;
+       width: 3.2vw;
+       left: 47%;
+}
+
+footer p{
+    color: #7A1858;
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#sobre {
+    position: relative;
+    left: 43.5%;
+    bottom: -15%;
+}
+
+#line {
+    position: relative;
+    left: 50%;
+}
+
+#contato {
+    position: relative;
+    left: 53%;
+    bottom:18% ;
 }
