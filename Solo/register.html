@@ -28,25 +28,25 @@
      <form class="form" action="">
         <h2>Cadastro</h2>
         <label for="">Nome Completo</label><br>
-        <input type="text">
+        <input required type="text">
         <br>
         <label for="">E-mail</label><br>
-        <input type="email" name="" id="">
+        <input required type="email" name="" id="">
         <br>
         <label for="">CPF</label><br>
-        <input type="text">
+        <input required id="cpf" minlength="14" type="text">
         <br>
         <label for="">Telefone</label><br>
-        <input type="number" name="" id="">
+        <input required id="phone" minlength="14" type="text"  >
         <br>
         <label for="">Data de Nascimento</label><br>
-        <input type="date" name="" id="">
+        <input required type="date" name="" id="">
         <br>
         <label for="">Senha</label><br>
-        <input type="password" name="" id="">
+        <input required type="password" name="" id="">
         <br>
         <label for="">Confirmar Senha</label><br>
-        <input type="password" name="" id="">
+        <input required type="password" name="" id="">
         <br>
         <button type="submit">Registrar</button>
      </form>
@@ -55,5 +55,13 @@
 <!-- Footer -->
 
 
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+<script>
+    $('#cpf').mask('000.000.000-00');
+    $('#phone').mask('(00) 00000-0000');
+</script>
 </body>
 </html>
