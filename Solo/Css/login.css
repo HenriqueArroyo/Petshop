@@ -100,7 +100,7 @@ justify-content: space-around;
 .header2 p{
     color: white;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 1.15vw;
     text-decoration: none;
 }
 
@@ -116,20 +116,21 @@ justify-content: space-around;
 }
 
 
+
 /* ------------------------------------------ */
 .form h2{
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     margin-left: 12vh;
     font-size: 3vh;
 }
 .login {
-    height:100vh;
+    height:66vh;
     width: 50%;
     position: relative;
 }
 
 .login label {
-    font-size: 3.2vh;
+    font-size: 2.5vh;
 }
 
 .login input {
@@ -162,6 +163,7 @@ justify-content: space-around;
     width: 35vh;
     border-radius: 20px;
     color: white;
+    font-size: 1.5vw;
 }
 
 .login button:hover {
@@ -178,20 +180,20 @@ justify-content: space-around;
 
 .form {
     margin-left: 28vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .img {
     position: absolute;
-    top: 22.3vh;
-    height: 100vh;
+    top: 10.5vw;
+    height: 83vh;
     width: 50%;
     left: 50%;
 }
 
 .img img{
     width: 100%;
-    height: 100vh;
+    height: 83vh;
 }
 
 
