@@ -104,10 +104,10 @@ justify-content: space-around;
 .filtro {
 position: absolute;
 border: 2px solid black;
-height: 80vh;
-width: 30vh;
+height: 55vw;
+width: 14vw;
 margin-top: 130px;
-left: 2%;
+left: 2vw;
 background-color: white;
 }
 
@@ -134,13 +134,13 @@ background-color: white;
 
 .catalago h2 {
     font-size: 40px;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
 .catalago h6{
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 10px;
     color: rgb(0, 0, 0);
     opacity: 80%;
 }
@@ -234,11 +234,86 @@ background-color: white;
 }
 
 /* Footer  */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
+
 footer {
-    height: 19vw;
+    height: 23vw;
     width: 100%;
     background-color: #FFF2F2;
     border: 2px solid black;
-    top: 90vw;
-    position: absolute;
+    margin-top: 75vw;
+}
+
+
+.f1 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    left: 39.6vw;
+}
+
+#instagram {
+    height: 3.5vw;
+    width: 3.5vw;
+    margin-top: 2vw;
+}
+
+#facebook {
+ height: 5vw;
+    width: 5vw;
+    margin-top: 1.2vw;
+}
+
+#twitter {
+    height: 3.1vw;
+       width: 3.1vw;
+       margin-top: 2.2vw;
+}
+
+footer p{
+    color: #7A1858;
+    font-family: 'Ruda', sans-serif;
+    font-size: 1vw;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.f2  {
+    display: flex;
+    justify-content: space-around;
+    width: 16vw;
+    left: 42.2vw;
+    position: relative;
+    margin-top: 2vw;
+}
+
+#contato {
+margin-top: 2vw;
+}
+
+#line {
+    height: 4vw;
+}
+
+#sobre{
+    margin-top: 2vw;
+}
+
+#instagram:hover, #facebook:hover, #twitter:hover {
+transform: scale(1.15);
+transition: 0.3s;
+}
+
+#sobre:hover, #contato:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:700px) {
+    footer {
+        margin-top: 40vw;
+    }
 }

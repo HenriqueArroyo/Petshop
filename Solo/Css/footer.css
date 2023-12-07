@@ -9,54 +9,63 @@ footer {
     width: 100%;
     background-color: #FFF2F2;
     border: 2px solid black;
+
+}
+
+
+.f1 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    left: 39.6vw;
 }
 
 #instagram {
-    position: relative;
     height: 3.5vw;
     width: 3.5vw;
-    left: 41%;
-    top: 0;
+    margin-top: 2vw;
 }
 
 #facebook {
- position: relative;
  height: 5vw;
     width: 5vw;
-    left: 43.7%;
-    top: 4%;
+    margin-top: 1.2vw;
 }
 
 #twitter {
-    position: relative;
-    height: 3.2vw;
-       width: 3.2vw;
-       left: 47%;
+    height: 3.1vw;
+       width: 3.1vw;
+       margin-top: 2.2vw;
 }
 
 footer p{
     color: #7A1858;
     font-family: 'Ruda', sans-serif;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 footer a{
     text-decoration: none;
 }
 
-#sobre {
+.f2  {
+    display: flex;
+    justify-content: space-around;
+    width: 16vw;
+    left: 42.2vw;
     position: relative;
-    left: 43.5%;
-    bottom: -15%;
-}
-
-#line {
-    position: relative;
-    left: 50%;
+    margin-top: 2vw;
 }
 
 #contato {
-    position: relative;
-    left: 53%;
-    bottom:18% ;
+margin-top: 2vw;
+}
+
+#line {
+    height: 4vw;
+}
+
+#sobre{
+    margin-top: 2vw;
 }

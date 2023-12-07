@@ -197,3 +197,24 @@ justify-content: space-around;
 }
 
 
+@media screen and (max-width:1000px) {
+    .img {
+        display: none;
+    }
+
+    .login {
+        right: 40px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .img {
+        display: none;
+    }
+
+    .login {
+        right: 60px;
+        left: -20px;
+    }
+}

@@ -16,10 +16,10 @@ body {
 #banner {
     height: 70vh;
     width: 80vw;
-    border-radius: 10vh;
+    border-radius: 7vh;
     position: relative;
     left: 10vw;
     top: 1vw;
-    filter: hue-rotate(0deg); /* 0deg para manter a cor original, 180deg para inverter as cores */
-    background-color: red; /* Adiciona uma tonalidade vermelha à imagem */
+    
 }
+
