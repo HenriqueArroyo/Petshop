@@ -1,15 +1,33 @@
 class Navbar {
-    constructor (menuHb, header2, ) {
+    constructor (menuHb, header2, navLinks ) {
         this.menuHb = document.querySelector(menuHb);
         this.header2  = document.querySelector(header2 );
+        this.navLinks = document.querySelectorAll(navLinks);
         this.activeClass = "active";
  
     }
 
-addClickEvent() {
-    this.menuHb.addEventListener("click", () => console.log("Hey"));
+    animateLinks() {
+        this.navLinks.forEach((link, index) => {
+          link.style.animation
+            ? (link.style.animation = "")
+            : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+                index / 7 + 0.3
+              }s`);
+        });
+      }
+
+      handleClick() {
+        this.header2.toggle(this.activeClass);
+        this.menuHb.toggle(this.activeClass);
+        this.animateLinks();
+      }
+
+
+      addClickEvent() {
+        this.menuHb.addEventListener("click", () => console.log("Hey"));
+      }
     
-}
 
  init() {
     if(this.menuHb) {
@@ -20,9 +38,9 @@ addClickEvent() {
  }
 }
 
-const hbNavbar = new HbNavbar (
+const navbar = new Navbar (
    ".menuHb",
    ".header2",
    ".header2 a",
    );
-hbNavbar.init();
+navbar.init();
