@@ -69,3 +69,13 @@ margin-top: 2vw;
 #sobre{
     margin-top: 2vw;
 }
+
+#instagram:hover, #facebook:hover, #twitter:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+    }
+    
+    #sobre:hover, #contato:hover {
+        transform: scale(1.15);
+        transition: 0.3s;
+    }
