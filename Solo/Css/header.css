@@ -89,7 +89,7 @@
      transition: 0.3s;
  }
  
- #usuario {
+.header1 #usuario {
      position: relative;
      height: 2.5vw;
      width: 2.5vw;
@@ -213,21 +213,36 @@
     display: none;
     background-color: white;
     border: 2px solid black;
-    height: 5vw;
-    width: 5vw;
+    height: 37vw;
+    width: 8vw;
    position: relative;
-   left: 93vw;
-   top: -1vw;
+   left: 91vw;
+   top: -5vw;
    z-index: 1;
-   border-radius: 4vw;
+   border-radius: 1vw;
   }
 
-  .log a {
-    position: relative;
+  .log #logout {
     color: black;
-  
-    top: 1.5vw;
-    left: 0.25vw;
    font-family:'Inter', sans-serif ; 
   }
 
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .item a {
+    color: black;
+    padding: 2vw;
+
+   }
+
+   .item a:hover {
+    transform: scale(1.10);
+   }
+
+   .item #usuario {
+    margin-left: -1.4vw;
+   }

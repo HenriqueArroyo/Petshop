@@ -17,7 +17,14 @@
             <a  href=""><img id="carrinhoCompra" src="./Img/carrinhoCompra.png" alt="Carrinho de Compra"></a>
             <a href="#" ><img id="usuario" src="./Img/user.png" alt="Usuário"></a>
             <div class="log">
-                <a href="#">Logout</a>
+                <div class="item">
+                <a href="#" ><img id="usuario" src="./Img/user.png" alt="Usuário"></a>
+                <a href="">...</a>
+                <a href="">...</a>
+                <a href="">...</a>
+                <a href="">...</a>
+                <a href="#" id="logout">Logout</a>
+            </div>
             </div>
             <div class="menuHb">
                 <div class="linha1"></div>
@@ -38,19 +45,8 @@
         </div>
     </nav>
     <main></main>
-    <script>
-        // Adiciona um ouvinte de evento de clique ao ícone de usuário
-        document.getElementById('usuario').addEventListener('click', function () {
-            // Obtém a referência à div de logout
-            var logoutDiv = document.querySelector('.log');
-
-            // Alterna a visibilidade da div de logout
-            if (logoutDiv.style.display === 'block') {
-                logoutDiv.style.display = 'none';
-            } else {
-                logoutDiv.style.display = 'block';
-            }
-        });
+    <script src="./Js/usuario.js">
+ 
     </script>
     <script src="./Js/navbar.js"></script>
 </body>
