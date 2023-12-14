@@ -23,3 +23,51 @@ body {
     
 }
 
+.service {
+    position: relative;
+    margin-top: 7vw;
+    width: 100%;
+    display: flex;
+}
+
+.service h3 {
+    margin-left: 12vw;
+}
+
+.card1 {
+    background-color: white;
+    border-radius: 3vw;
+    border: 1px solid black;
+    height: 16vw;
+    width: 38vw;
+    margin-top: 5vw;
+    margin-left: -10vw;
+}
+
+.card1 p {
+    font-size: 3vw;
+    color: black;
+    margin-left: 13vw;
+    margin-top: 4vw;
+}
+
+.card1:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 3vw;
+    border: 1px solid black;
+    height: 16vw;
+    width: 38vw;
+    margin-top: 5vw;
+    margin-left: 4vw;
+}
+
+.card2:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+

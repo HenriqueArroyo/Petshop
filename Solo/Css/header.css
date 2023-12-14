@@ -207,3 +207,27 @@
   .menuHb.active .linha3 {
     transform: rotate(45deg) translate(-0.5vw, -0.7vw);
   }
+
+
+  .log {
+    display: none;
+    background-color: white;
+    border: 2px solid black;
+    height: 5vw;
+    width: 5vw;
+   position: relative;
+   left: 93vw;
+   top: -1vw;
+   z-index: 1;
+   border-radius: 4vw;
+  }
+
+  .log a {
+    position: relative;
+    color: black;
+  
+    top: 1.5vw;
+    left: 0.25vw;
+   font-family:'Inter', sans-serif ; 
+  }
+
