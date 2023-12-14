@@ -84,3 +84,13 @@ footer {
     border: 2px solid black;
     margin-top: 15vh;
 }
+
+@media screen and (max-width:900px) {
+    .sobre img {
+        display: none;
+    }
+
+    .sobre p {
+        font-size: 3vw;
+    }
+}
