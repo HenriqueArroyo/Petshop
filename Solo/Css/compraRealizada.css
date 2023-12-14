@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ruda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #FFF9F0;
+    overflow-x: hidden;
+}
+
+footer{
+ top: 100%;
+ position: absolute;
+}
+
+#realizado {
+    height: 5vw;
+    width: 5vw;
+    left: 39%;
+    position: relative;
+    top:5vw;
+}
+
+#compra {
+left: 10vw;
+position: relative;
+top: 7vw;
+font-size: 2vw;
+}
+
+#obrigado {
+    top:8vw ;
+    position: relative;
+    font-size: 1.3vw;
+    left: 11.5vw;
+}
+
+section button {
+    background-color: white;
+    height: 5vw;
+    width: 7vw;
+    border-radius: 2vw;
+    font-family:'Inter', sans-serif ;
+    position: relative;
+    top: 10vw;
+    left: 14.5vw;
+}
+
+section {
+    position: relative;
+    left: 30vw;
+    height: 35vw;
+    width: 40vw;
+ 
+}
