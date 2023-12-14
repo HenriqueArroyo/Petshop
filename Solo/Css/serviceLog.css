@@ -11,6 +11,7 @@
 
 body {
     background-color: #FFF9F0;
+    overflow-x: hidden;
 }
 
 #banner {
@@ -66,8 +67,62 @@ body {
     margin-left: 4vw;
 }
 
+.card2 p {
+    font-size: 3vw;
+    color: black;
+    margin-left: 12vw;
+    margin-top: 4vw;
+}
+
 .card2:hover {
     transform: scale(1.10);
     transition: 0.3s;
 }
 
+.card3 {
+    background-color: white;
+    border-radius: 3vw;
+    border: 1px solid black;
+    height: 16vw;
+    width: 38vw;
+    margin-top: 25vw;
+    margin-left: -80vw;
+}
+
+.card3 p {
+    font-size: 3vw;
+    color: black;
+    margin-left: 5vw;
+    margin-top: 7vw;
+}
+
+.card3:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+.card4 {
+    background-color: white;
+    border-radius: 3vw;
+    border: 1px solid black;
+    height: 16vw;
+    width: 38vw;
+    margin-top: 25vw;
+    margin-left: -37.5vw;
+}
+
+.card4 p {
+    font-size: 3vw;
+    color: black;
+    margin-left: 12vw;
+    margin-top: 7vw;
+}
+
+.card4:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+footer {
+    margin-top: 10vw;
+}
